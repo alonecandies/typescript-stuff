@@ -1,0 +1,12 @@
+declare type strArr = Array<string>;
+declare type numArr = Array<number>;
+declare const last: (arr: Array<number>) => number;
+declare const l1: number;
+declare const lastT: <T>(arr: T[]) => T;
+declare const l3: number;
+declare const l4: string;
+declare const l5: string;
+declare const makeArrT: <T>(x: T, y: string) => (string | T)[];
+declare const makeArrXY: <X, Y>(x: X, y: Y) => (X | Y)[];
+declare const makeTuple: <X, Y>(x: X, y: Y) => [X, Y];
+declare const makeTupleWithDefault: <X, Y = number>(x: X, y: Y) => [X, Y];

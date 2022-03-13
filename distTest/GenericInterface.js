@@ -1,9 +1,10 @@
-var resourceOne = {
+"use strict";
+const resourceOne = {
     id: 1,
     name: "Resource One",
     data: "Some data" //Must be string
 };
-var resourceTwo = {
+const resourceTwo = {
     id: 2,
     name: "Resource Two",
     data: {
@@ -11,12 +12,12 @@ var resourceTwo = {
         age: 30
     }
 };
-var resourceThree = {
+const resourceThree = {
     id: 3,
     name: "Resource Three",
     data: ["Some", "Data", "Array"]
 };
-var numbersResource = {
+const numbersResource = {
     id: 4,
     name: "Resource Four",
     data: [1, 2, 3, 4, 5]
