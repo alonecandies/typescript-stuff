@@ -31,3 +31,13 @@ let people: Person[] = [];
 export interface hasPrint {
   print():string
 }
+
+// Can add new properties to interface
+interface test {
+  name: string;
+  age: number;
+}
+
+interface test {
+  id: number;
+}
